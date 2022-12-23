@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  telegram-wol:
+    image: ghcr.io/binozo/telegram-wol:latest
+    restart: always
+    volumes:
+      - [YOUR-HOST-PATH]/devices.json:/bin/devices.json
+    environment:
+      TELEGRAM-TOKEN: [YOUR TOKEN]
