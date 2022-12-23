@@ -7,3 +7,4 @@ services:
       - [YOUR-HOST-PATH]/devices.json:/bin/devices.json
     environment:
       TELEGRAM-TOKEN: [YOUR TOKEN]
+    network_mode: host
