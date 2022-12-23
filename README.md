@@ -15,6 +15,6 @@ services:
         volumes:
           - [YOUR-HOST-PATH]/devices.json:/bin/devices.json
         environment:
-          TELEGRAM-TOKEN: [YOUR TOKEN]
+          telegram-token: [YOUR TOKEN]
         network_mode: host
 ```
